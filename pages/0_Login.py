@@ -1,3 +1,8 @@
+import sys
+import os
+
+# 👇 This adds the project root (dashboard/) to Python's search path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import streamlit as st
 from utils.auth import authenticate  # Make sure this path is correct
 # from streamlit.source_util import get_pages
