@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+pymongo
+bcrypt
+python-dotenv
+matplotlib
+opencv-python-headless
