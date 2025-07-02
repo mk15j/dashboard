@@ -21,7 +21,7 @@ if st.button("Login"):
     if user:
         st.session_state["user"] = user
         st.success(f"Welcome, {user['username']}!")
-        st.switch_page("pages/2_Trend_Analysis.py")  # ✅ Correct title, not filename
+        st.switch_page("2_Trend_Analysis.py")  # ✅ Correct title, not filename
     else:
         st.error("Invalid username or password")
 
